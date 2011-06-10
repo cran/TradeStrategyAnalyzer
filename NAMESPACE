@@ -1,0 +1,6 @@
+importFrom("RJSONIO", "toJSON")
+exportPattern(portfolioHoldingSummaryChart,stockCorrMatrixChart,stockCorrPairsCartesianChart,portfolioStocksChart,portfolioBoxPlot,calendarHeatMap,readFromDB,writeToDB,calcSumHoldings,calcHoldingVal)
+exportPattern(gvisMotionChart2,gvisAnnotatedTimeLine2)
+exportPattern(AddPortfolio, BuyFee, cashTicker, DetermineOrders_MeanRevert, DetermineOrders_RandomBuyAndHold, GetPortfolioPerformance, GetPortfolioWorthAtTime)
+exportPattern(LoadMarketToDB, LoadStocksToDB, MeanRevertCorrelatePairwise, PrintSimulatorState, schemaHoldingsTableName, schemaMarketTableName, schemaPortfoliosTableName, schemaStocksTableName, schemaTransactionsTableName, SellFee, SimulateBroker, StoreHoldingsToDB, StorePortfoliosToDB, StoreSimulationResults, StoreCorrelationsToDB, StoreTransactionsToDB, VisualizeCorrelation)
+exportPattern(HoldingsInfo, TransactionsInfo, PortfoliosInfo)
